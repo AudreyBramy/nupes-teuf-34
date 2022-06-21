@@ -22,10 +22,10 @@ jobs:
           npm install
           npm run build:direct
       - name: Build and Push Jekyll site
-        uses: helaili/jekyll-action@2.0.4
-        env:
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+        uses: helaili/jekyll-build@v2
         with:
-          target_branch: 'deploy'
-          jekyll_src: .
+          target_branch: deploy
+          target_path: v1.0        
+          keep_history: true
+          token: ${{ secrets.JEKYLL_PAT }}
       
