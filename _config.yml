@@ -11,8 +11,8 @@ couleurs:
   header_btn_section: "#c9d622"
 
 bandeau:
-  image: "/generic-images/banniere-neutre.png"
-  texte: "Bandeau Neutre"
+  image: "/generic-images/banniere.jpg"
+  texte: "Banniere Nupes"
 
 ## Les sections suivantes ne sont pas à modifier
 sass:
@@ -28,7 +28,7 @@ include:
   - _config.yml
 
 code_source:
-  instance: "https://github.com/betagouv/neutre.comobi.fr"
+  instance: "https://github.com/AudreyBramy/nupes-teuf-34"
   comobi: "https://github.com/betagouv/comobi"
 
 defaults:
