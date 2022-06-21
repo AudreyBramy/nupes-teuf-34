@@ -6,7 +6,7 @@ formulaire: "https://docs.google.com/forms/d/e/1FAIpQLSeUI46v256LXul_f97NJSQ81_z
 lien_cgu: "/cgu"
 
 bandeau:
-  image: "/generic-images/banniere.jpg"
+  image: "/images/banniere.jpg"
   texte: "Banniere Nupes"
 
 ## Les sections suivantes ne sont pas à modifier
