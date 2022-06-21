@@ -8,11 +8,7 @@ styles:
   - href: "./frontend_build/bundle.css"
 
 image:
-  url: "generic-images/banniere-developpement.png"
-  alt: "bannière comobi"
+  url: "images/banniere.jpg"
+  alt: "bannière nupes 34"
   bandeau: true
-
-title:  # Optionnel
-  text: "Trouvez un covoiturage pour vous déplacer pour vos trajets réguliers"
-  background: "#c9d622"
 ---
