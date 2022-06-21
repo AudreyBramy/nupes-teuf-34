@@ -28,4 +28,10 @@ jobs:
           target_path: v1.0        
           keep_history: true
           token: ${{ secrets.JEKYLL_PAT }}
+      - uses: 47ng/actions-clever-cloud@v1.1
+        with:
+          appID: app_facade42-cafe-babe-cafe-deadf00dbaad
+        env:
+          CLEVER_TOKEN: ${{ secrets.CLEVER_TOKEN }}
+          CLEVER_SECRET: ${{ secrets.CLEVER_SECRET }}
       
