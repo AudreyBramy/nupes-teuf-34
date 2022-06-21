@@ -14,11 +14,6 @@ bandeau:
   image: "/generic-images/banniere-neutre.png"
   texte: "Bandeau Neutre"
 
-liste-logo:
-  - generic-images/ademe_logo.jpg
-  - generic-images/ANCT_Logo.jpg
-  - generic-images/beta_gouv_logo.jpg
-
 ## Les sections suivantes ne sont pas à modifier
 sass:
   sass_dir: _sass
