@@ -1,0 +1,30 @@
+titre: "Nupes 34"
+mail: "contact@nupes34.fr"
+tel: "indisponible"
+nom: "Nupes 34"
+formulaire: "https://docs.google.com/forms/d/e/1FAIpQLSeUI46v256LXul_f97NJSQ81_z47Lb8wI7_A67HvzDbcoxrHg/viewform?usp=pp_url&entry.1097668138=Grabels&entry.902603097=2022-06-24&entry.1422687201=18:00&entry.1033756293=00:00&entry.957850550=Le+covoiturage+ponctuel+et+gratuit,+pour+rendre+service+%C3%A0+une+personne+de+temps+en+temps+(recommand%C3%A9+par+Lotocar)&entry.1257107776=R%C3%A9seaux+sociaux"
+lien_cgu: "/cgu"
+code_departement: "34"
+
+## Les sections suivantes ne sont pas à modifier
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - direct/
+  - outil-metier/
+  - tests/
+
+include:
+  - _config.yml
+
+code_source:
+  instance: "https://github.com/AudreyBramy/nupes-teuf-34"
+  comobi: "https://github.com/betagouv/comobi"
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
